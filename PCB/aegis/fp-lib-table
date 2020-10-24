@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name cc)(type KiCad)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/cc)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/footprints)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name "Schematic Library")(type KiCad)(uri "C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/random-keyboard-parts.pretty/Schematic Library")(options "")(descr ""))
+)

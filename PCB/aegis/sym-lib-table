@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name SK6812MINI-E)(type Legacy)(uri C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/footprints/SK6812MINI-E.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "C:/Users/Coumbaya/Documents/Aegis/Aegis/PCB/libs/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name corne-classic-cache)(type Legacy)(uri C:/Users/Coumbaya/Documents/CRKBD/crkbd-master/corne-classic/pcb/corne-classic-cache.lib)(options "")(descr ""))
+  (lib (name kopesh-rescue)(type Legacy)(uri C:/Users/Coumbaya/Documents/GitHub/Kopesh/kopesh-rescue.lib)(options "")(descr ""))
+)
