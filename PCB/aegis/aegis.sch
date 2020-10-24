@@ -1382,17 +1382,6 @@ SCK
 Text GLabel 2300 3300 2    50   Input ~ 0
 SDA
 $Comp
-L SK6812MINI-E:SK6812MINI-E LED1
-U 1 1 5F95B6F7
-P 1150 3850
-F 0 "LED1" H 1494 3896 50  0000 L CNN
-F 1 "SK6812MINI-E" H 1494 3805 50  0000 L CNN
-F 2 "footprints:INV-YS-SK6812MINI-" H 1500 3650 50  0001 C CNN
-F 3 "" H 1500 3650 50  0001 C CNN
-	1    1150 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L SK6812MINI-E:SK6812MINI-E LED2
 U 1 1 5F95C72E
 P 1150 4450
@@ -1546,11 +1535,11 @@ F 3 "" H 6750 6950 50  0001 C CNN
 	1    6400 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 3850 1    50   Input ~ 0
+Text GLabel 1150 2900 1    50   Input ~ 0
 VCC
-Text GLabel 850  3850 1    50   Input ~ 0
+Text GLabel 950  2900 1    50   Input ~ 0
 GND
-Text GLabel 1150 3550 1    50   Input ~ 0
+Text GLabel 1050 2900 1    50   Input ~ 0
 LED
 Wire Wire Line
 	1450 3850 1450 4450
@@ -1755,4 +1744,42 @@ Text GLabel 9950 3500 2    50   Input ~ 0
 GND
 Wire Wire Line
 	9800 3500 9950 3500
+$Comp
+L corne-classic-cache:Connector_Generic_Conn_01x03 LEDS1
+U 1 1 5FA19415
+P 1050 3100
+F 0 "LEDS1" V 922 3280 50  0000 L CNN
+F 1 "Connector_Generic_Conn_01x03" V 1013 3280 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 1050 3100 50  0001 C CNN
+F 3 "" H 1050 3100 50  0001 C CNN
+	1    1050 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED1
+U 1 1 5F95B6F7
+P 1150 3850
+F 0 "LED1" H 1494 3896 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1494 3805 50  0000 L CNN
+F 2 "footprints:INV-YS-SK6812MINI-" H 1500 3650 50  0001 C CNN
+F 3 "" H 1500 3650 50  0001 C CNN
+	1    1150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2900 850  2900
+Wire Wire Line
+	850  2900 850  3850
+Connection ~ 850  3850
+Wire Wire Line
+	1050 2900 1050 3550
+Wire Wire Line
+	1050 3550 1150 3550
+Wire Wire Line
+	1150 2900 1450 2900
+Wire Wire Line
+	1450 2900 1450 3850
+Connection ~ 1450 3850
+Wire Wire Line
+	1150 5300 1150 5350
 $EndSCHEMATC
