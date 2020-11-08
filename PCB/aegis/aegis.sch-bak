@@ -1710,7 +1710,7 @@ U 1 1 5F9BC5A6
 P 8950 3000
 F 0 "Solenoide1" V 9245 2950 50  0000 C CNN
 F 1 "Motor_DC" V 9154 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 8950 2910 50  0001 C CNN
+F 2 "footprints:ResetSW" H 8950 2910 50  0001 C CNN
 F 3 "~" H 8950 2910 50  0001 C CNN
 	1    8950 3000
 	0    -1   -1   0   

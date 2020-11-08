@@ -1680,7 +1680,7 @@ Text GLabel 9600 4000 3    50   Input ~ 0
 SOL
 Text GLabel 2550 1400 1    50   Input ~ 0
 RAW
-Text GLabel 8750 3600 3    50   Input ~ 0
+Text GLabel 8750 3950 3    50   Input ~ 0
 RAW
 $Comp
 L Device:R_Small R1
@@ -1710,7 +1710,7 @@ U 1 1 5F9BC5A6
 P 8950 3000
 F 0 "Solenoide1" V 9245 2950 50  0000 C CNN
 F 1 "Motor_DC" V 9154 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 8950 2910 50  0001 C CNN
+F 2 "footprints:ResetSW" H 8950 2910 50  0001 C CNN
 F 3 "~" H 8950 2910 50  0001 C CNN
 	1    8950 3000
 	0    -1   -1   0   
@@ -1737,8 +1737,6 @@ Wire Wire Line
 	8750 3000 8750 3500
 Wire Wire Line
 	8750 3500 8900 3500
-Wire Wire Line
-	8750 3600 8750 3500
 Connection ~ 8750 3500
 Text GLabel 9950 3500 2    50   Input ~ 0
 GND
@@ -1782,4 +1780,39 @@ Wire Wire Line
 Connection ~ 1450 3850
 Wire Wire Line
 	1150 5300 1150 5350
+Text GLabel 8900 3950 3    50   Input ~ 0
+VCC
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5FA9D4D0
+P 8750 3850
+F 0 "JP1" V 8704 3898 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 8795 3898 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8750 3850 50  0001 C CNN
+F 3 "~" H 8750 3850 50  0001 C CNN
+	1    8750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5FA9E67F
+P 8900 3850
+F 0 "JP2" V 8854 3898 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 8945 3898 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8900 3850 50  0001 C CNN
+F 3 "~" H 8900 3850 50  0001 C CNN
+	1    8900 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 3500 8750 3650
+Wire Wire Line
+	8900 3750 8850 3750
+Wire Wire Line
+	8850 3750 8850 3650
+Wire Wire Line
+	8850 3650 8750 3650
+Connection ~ 8750 3650
+Wire Wire Line
+	8750 3650 8750 3750
 $EndSCHEMATC
