@@ -18,7 +18,7 @@ If you want to make everything in acrylic : just do as above minus one Aegis_mid
 
 You'll need 13 x M3 hex standoffs, >9mm if you have 3 "middle" part, >6 if you have only 2.
 I've noticed that nylon standoffs are way larger than brass standoffs, so the dxf are designed for nylon standoff (brass ones will turn free) but can be modified.
-You'll also need 13 x M3x~5mm and 13 x M3x~8mm screws.
+You'll also need 13 x M3x5mm and 13 x M3x8mm screws.
 The screws heads are hidden underneath the topmost plate, so you'll need something to hold it in place, probably some slim double-sided tape (will update once I've tested).
 Note : be careful with the top1 and top2 cutouts, I broke mine when peeling the protective plastic sheet. (shoudn't have this problem on the crkbd version I think
 
