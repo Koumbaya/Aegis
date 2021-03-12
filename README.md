@@ -3,6 +3,7 @@
  The Aegis is a keyboard that uses the same layout as the crkbd by foostan : https://github.com/foostan/crkbd
  
  ![pic](https://github.com/Koumbaya/Aegis/blob/master/pictures/aegiscollage.jpg?raw=true)
+ ![pic](https://github.com/Koumbaya/Aegis/blob/master/pictures/3dprinted.jpg?raw=true)
  
  I wanted certain features like the solenoid so I made a quick PCB that's similar in layout to a crkbd but with only one pro-micro, you can make this PCB if you want a single PCB with underglow and a solenoid, or you can take the crkbd version of the case and slap both halves into this bad boy !
 With the brass plate, it weight around 1Kg.
@@ -21,6 +22,11 @@ I've noticed that nylon standoffs are way larger than brass standoffs, so the dx
 You'll also need 13 x M3x5mm and 13 x M3x8mm screws.
 The screws heads are hidden underneath the topmost plate, so you'll need something to hold it in place, probably some slim double-sided tape (will update once I've tested).
 Note : be careful with the top1 and top2 cutouts, I broke mine when peeling the protective plastic sheet. (shoudn't have this problem on the crkbd version I think
+
+### 3D printed case
+
+This one is pretty much straightforward : print, put PCB inside, close.
+There is a CRKBD version too.
 
  ### PCB
  
